@@ -4,5 +4,5 @@ from . import views
 app_name = 'streaming'
 
 urlpatterns = [
-    path('', views.home, name='app1fun'),
+    path('', views.home, name='home'),
 ]

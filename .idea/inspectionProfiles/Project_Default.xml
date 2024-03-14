@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="static" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="urllib" />
+            <item index="1" class="java.lang.String" itemvalue="pillow" />
+            <item index="2" class="java.lang.String" itemvalue="selenium" />
+            <item index="3" class="java.lang.String" itemvalue="fastapi" />
+            <item index="4" class="java.lang.String" itemvalue="pydantic" />
+            <item index="5" class="java.lang.String" itemvalue="pytest" />
+            <item index="6" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="starlette" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="cv2.VideoCapture" />
+          <option value="cv2.destroyAllWindows" />
+          <option value="cv2.waitKey" />
+          <option value="cv2.imshow" />
+          <option value="cv2.putText" />
+          <option value="cv2.FONT_HERSHEY_DUPLEX" />
+          <option value="cv2.rectangle" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
